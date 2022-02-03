@@ -4,13 +4,16 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
+    "android": "expgo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
     "expo": "~44.0.0",
+    "expo-constants": "~13.0.1",
+    "expo-font": "~10.0.4",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
